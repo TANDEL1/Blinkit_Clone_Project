@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+#nav-bar {
+    flex-wrap: wrap;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+#search {
+    width: 40%;
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+}
+
+#search input {
+    width: 40em;
+    height: 2.4em;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+#hero-section img {
+    width: 87%;
+}
+
+#scrolable-images {
+    width: 85%;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+#scrolable-div img {
+    width: 30%;
+}
+
+#categories-images {
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+#categories-images img {
+    width: 10em;
+}
+
+/* ----------xx-------- */
+
+#cards {
+    display: flex;
+    justify-content: center;
+}
+
+#card-body {
+    width: 85vw;
+    /* background-color: aqua */
+}
+
+#list {
+    /* background-color: aquamarine; */
+    /* width: 100%; */
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.item {
+    /* border: 2px solid black; */
+    display: inline-block !important;
+    width: 200px;
+    height: 340px;
+    margin-right: 1em;
+}
+
+.item-image img {
+    width: 100%;
+}
+
+.item-weight {
+    color: gray;
+}
+
