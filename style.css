@@ -54,8 +54,6 @@ header {
     width: 10em;
 }
 
-/* ----------xx-------- */
-
 #cards {
     display: flex;
     justify-content: center;
@@ -63,18 +61,14 @@ header {
 
 #card-body {
     width: 85vw;
-    /* background-color: aqua */
 }
 
 #list {
-    /* background-color: aquamarine; */
-    /* width: 100%; */
     white-space: nowrap;
     overflow-x: scroll;
 }
 
 .item {
-    /* border: 2px solid black; */
     display: inline-block !important;
     width: 200px;
     height: 340px;
@@ -87,5 +81,16 @@ header {
 
 .item-weight {
     color: gray;
+}
+@media (max-width:570px)
+{
+    #categories-images {
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    
+    #categories-images img {
+        width: 8em;
+    }
 }
 
